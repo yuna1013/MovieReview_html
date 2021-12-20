@@ -1,0 +1,50 @@
+html,body {
+    margin:0;
+    padding: 0; 
+}
+
+/********************
+**** Header ****
+********************/
+
+header {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,28%);
+}
+
+header .logo img {
+    width: 65%;
+}
+
+header .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 32%;
+}
+
+header .options .search-bar{
+        position: relative;
+}
+
+header .options .search-bar img {
+    position: absolute;
+    width: 15%;
+    right: 2%;
+}
+
+header .options .buttons {
+    justify-content: space-between;
+    width: 48%;
+}
+
+/******************
+***** Main-Image**
+******************/
+
+.background img {
+    width: 100%;
+}
