@@ -48,3 +48,43 @@ header .options .buttons {
 .background img {
     width: 100%;
 }
+
+
+/****************
+**** Body *******
+****************/
+section.body {
+    background-color: rgba(0,0,0,100%);
+}
+
+section.body .newly-released {
+    margin: auto 4%;
+}
+section.body .newly-released h1 {
+    color: rgba(255,255,255);
+    margin-top: 0;
+}
+section.body .newly-released ul li.card {
+    width: 30%;
+    position: relative;
+}
+ section.body .newly-released ul li.card .image {
+    width: 100%;
+}
+ section.body .newly-released ul li.card .image img {
+    width: 100%;
+}
+section.body .newly-released ul li.card .likes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section.body .newly-released ul li.card .likes .ratings {
+    display: flex;
+    align-items: center;
+}
+section.body .newly-released ul li.card .likes .ratings p {
+    color: white;
+    margin: 0;
+    margin-top: 20%;
+}
